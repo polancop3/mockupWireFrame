@@ -1,0 +1,65 @@
+html,body{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+}
+#catalyst{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;   
+}
+#matches{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+}
+#catalyst-content{
+    position: absolute
+}
+nav{
+    display: flex;
+    background-color:whitesmoke;
+    justify-content: center;
+    align-items: center;
+}
+#nav-ul{
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+.list{
+    list-style: none;  
+}
+.black-panel{
+    display: inline-flex;
+    height: 30px;
+    background-color: black;
+    align-items: center;
+    color: white;
+
+}
+#nautilus-logo{
+    width: 300px;
+    height: 50px;
+}
+#spotlight{
+    width: 100%;
+    height: 200px;
+
+}
+#ideas-background{
+position: absolute;
+height: 100%;
+width: 100%;
+}
+
+#ideas-content{
+    position: relative;
+    color: white;
+}
